@@ -1,0 +1,1884 @@
+{
+  "upstream_sha": "591edd47cf2cfea4957d720c607cf2a4def8673d",
+  "observed_at_utc": "2026-10-04",
+  "baseline_sha": "591edd47cf2cfea4957d720c607cf2a4def8673d",
+  "ahead": 0,
+  "behind": 0,
+  "notice_inventory": [],
+  "license_sha256": "44459b86c2e96fdbfd8a6b5c33d30d4b04b5293fcb2ec96fe4dcc4e0f90b8962",
+  "files": [
+    {
+      "path": ".github/workflows/bundle-macos.yml",
+      "sha256": "74b3d1c32ea94df80367195dcc14b492f5be436d83111d0a9a3d4e7697c4e83e",
+      "line_count": 340,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/.github/workflows/bundle-macos.yml",
+      "anchors": []
+    },
+    {
+      "path": ".github/workflows/bundle-windows.yml",
+      "sha256": "acda7f1487df4815edab1ab86a614f9aec3cec466e73aab2c1f88444fd306aca",
+      "line_count": 371,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/.github/workflows/bundle-windows.yml",
+      "anchors": []
+    },
+    {
+      "path": ".github/workflows/cargo-deny.yml",
+      "sha256": "051b19adf2da59d9fb43abdc9f43ca97af5da6fe8e6923d6ca55e1b7b4e0fc1d",
+      "line_count": 29,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/.github/workflows/cargo-deny.yml",
+      "anchors": []
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "309aae78c64523d5774961c7055d24ca0c360b8b069000315399d41810a7f9d0",
+      "line_count": 460,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/.github/workflows/ci.yml",
+      "anchors": []
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha256": "7060c1a25c349ec6dd136fe9bc96c0b0f0d4262b56b3155ee6bb63c09148664f",
+      "line_count": 202,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/.github/workflows/release.yml",
+      "anchors": []
+    },
+    {
+      "path": "BUILDING_LINUX.md",
+      "sha256": "ce33b534e76d158aa2ffd0305c0ad7dca5f728abc2aaa7afa83783104f2e372a",
+      "line_count": 218,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/BUILDING_LINUX.md",
+      "anchors": []
+    },
+    {
+      "path": "CUSTOM_DISTROS.md",
+      "sha256": "d0192ad958ad1bd86a1aebcee1112afdc1d57bdb8e4f291c6fcd4a133167cfe3",
+      "line_count": 812,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/CUSTOM_DISTROS.md",
+      "anchors": [
+        {
+          "line": 158,
+          "anchor": "GOOSE_DISABLE_KEYRING"
+        },
+        {
+          "line": 320,
+          "anchor": "X-Secret-Key"
+        }
+      ]
+    },
+    {
+      "path": "Cargo.lock",
+      "sha256": "48f25aadf72905d1b0533ac51b3033ce102045653c6a407fbf6c493f6d5b8e51",
+      "line_count": 15361,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/Cargo.lock",
+      "anchors": [
+        {
+          "line": 5230,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11004,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11013,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11014,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11015,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11016,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11021,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11035,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11043,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11050,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11051,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11056,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11066,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11067,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11068,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11074,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11085,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11086,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11087,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11093,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11110,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11111,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11119,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11131,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11132,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11141,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11155,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11171,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11172,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11173,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11174,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11175,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11176,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 11177,
+          "anchor": "sigstore"
+        }
+      ]
+    },
+    {
+      "path": "Cargo.toml",
+      "sha256": "64c1a0af6dd44cce154eaaa35b795bd33a941dabd3e234cc9133bbc4712eccac",
+      "line_count": 136,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/Cargo.toml",
+      "anchors": [
+        {
+          "line": 12,
+          "anchor": "rust-version"
+        }
+      ]
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "44459b86c2e96fdbfd8a6b5c33d30d4b04b5293fcb2ec96fe4dcc4e0f90b8962",
+      "line_count": 201,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/LICENSE",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-agent/Cargo.toml",
+      "sha256": "1c4af73816fce80ed8e6352783128ec71258b87e74ece43cf5c3a3a78fb71862",
+      "line_count": 37,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-agent/Cargo.toml",
+      "anchors": [
+        {
+          "line": 5,
+          "anchor": "rust-version"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose-agent/src/inference.rs",
+      "sha256": "869f19e52082f99b26cf8c1c299cec8af89e46336cb6ed7d56573f8378f96f7a",
+      "line_count": 647,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-agent/src/inference.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-agent/src/machine.rs",
+      "sha256": "465e08840141430abdc5ffd73a5524260fd17705c3031cd6a30bda4298ecdbe0",
+      "line_count": 207,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-agent/src/machine.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/Cargo.toml",
+      "sha256": "8e0fc9794db8f908507b1bfc3931322e5057e846d23fef773276b487b863ed45",
+      "line_count": 175,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/Cargo.toml",
+      "anchors": [
+        {
+          "line": 5,
+          "anchor": "rust-version"
+        },
+        {
+          "line": 73,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 94,
+          "anchor": "[features]"
+        },
+        {
+          "line": 95,
+          "anchor": "default ="
+        },
+        {
+          "line": 126,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 151,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 160,
+          "anchor": "sigstore"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose-cli/src/cli.rs",
+      "sha256": "f0232aa59eafc4df89031c197d533802c37ac9ccad0976fea20fc02c43bc8604",
+      "line_count": 3299,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/cli.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/commands/roam_client.rs",
+      "sha256": "0fdc8de70da007d0fd59d23ac103dd0961061056d4600751ee1669bb11ba926d",
+      "line_count": 283,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/commands/roam_client.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/commands/schedule.rs",
+      "sha256": "8dba7c88f2e28d589ca47dd92bf5142b7ca0ac4fe82a379ccf33be8847beccd7",
+      "line_count": 345,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/commands/schedule.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/commands/session.rs",
+      "sha256": "022e59bb0caa91bd6ab9bc11ffab8ac931daa883490d5df3cb5abd1b6feb969d",
+      "line_count": 569,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/commands/session.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/commands/update.rs",
+      "sha256": "dab403c7dd1f326a8515560f95b5664d846f87cd31116e4672edbc46b745b092",
+      "line_count": 1042,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/commands/update.rs",
+      "anchors": [
+        {
+          "line": 15,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 16,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 17,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 233,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 250,
+          "anchor": "verify_provenance"
+        },
+        {
+          "line": 350,
+          "anchor": "verify_provenance"
+        },
+        {
+          "line": 881,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 904,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 908,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 914,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 919,
+          "anchor": "sigstore"
+        },
+        {
+          "line": 999,
+          "anchor": "verify_provenance"
+        },
+        {
+          "line": 1000,
+          "anchor": "verify_provenance"
+        },
+        {
+          "line": 1003,
+          "anchor": "verify_provenance"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose-cli/src/lib.rs",
+      "sha256": "64ab6b10a3b0e1792d6294b1266ab4eb78fcb4829d08b8ed7b0cfad8da8878fe",
+      "line_count": 19,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/lib.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/logging.rs",
+      "sha256": "fe50ba6779535719fab3d1f573a0d986c289f3d06f7fcaee139384410316010b",
+      "line_count": 119,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/logging.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/main.rs",
+      "sha256": "301d1ff4503b12c3e6cc79a3a8c0a4e0e2b195c238f4f50e88cb00520055a284",
+      "line_count": 56,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/main.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/session/builder.rs",
+      "sha256": "29d1993c2dd3fef717c0fd4177e33db147904c96f01f0769f0964f144f2b9143",
+      "line_count": 1662,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/session/builder.rs",
+      "anchors": [
+        {
+          "line": 650,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 793,
+          "anchor": "update_provider"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose-cli/src/session/completion.rs",
+      "sha256": "ec9b8b678c21352a700e06841473d0b2bba2e453df67cd2fbb894cbfe0c7a885",
+      "line_count": 905,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/session/completion.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/session/editor.rs",
+      "sha256": "721c51974123743b37faf9ef769489f8642e2b3935da1f7df6ee2b43f1c19251",
+      "line_count": 615,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/session/editor.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/session/elicitation.rs",
+      "sha256": "fae301285a6e8a4fb945d9c53004a34eadbb2c5cbf480b5cd08cf16ed8cf0aeb",
+      "line_count": 718,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/session/elicitation.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/session/input.rs",
+      "sha256": "a12178ab774f1bcb06b6d36068d1fe87f01411596035c09d3373694a56adeed6",
+      "line_count": 887,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/session/input.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/session/mod.rs",
+      "sha256": "ad01cbe77a47c07a99220037d608fce5b95c0030fc5e4ac47bbe373ec8fb4424",
+      "line_count": 3312,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/session/mod.rs",
+      "anchors": [
+        {
+          "line": 1034,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 2012,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 3147,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 3196,
+          "anchor": "update_provider"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose-cli/src/session/output.rs",
+      "sha256": "1228e8f162583a8eda2ba92d17fef535851747c3fb6fb54f4d8c50fc1a9c1b43",
+      "line_count": 2050,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/session/output.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/session/paste.rs",
+      "sha256": "e9361b11d7a74199724899d3baa632a746b98968bad7367402262effd27403ae",
+      "line_count": 484,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/session/paste.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/session/streaming_buffer.rs",
+      "sha256": "5a5911dd51c573cfdee3428a66613086f89308f93d46800f95c88169edb2ac9d",
+      "line_count": 1033,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/session/streaming_buffer.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/session/thinking.rs",
+      "sha256": "fc725331954bf973ea57d2c9ff39120b05e1a57877973cdc2df14315a95dc9ee",
+      "line_count": 220,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/session/thinking.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-cli/src/signal.rs",
+      "sha256": "0286de5942912eec1a4e8c2ba822aa0dd8169a469ea8272e3a56ee483fb4315a",
+      "line_count": 36,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-cli/src/signal.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-provider-types/src/base.rs",
+      "sha256": "6cdbddcd2d55ded9f2f33dace4472e1509666d0ef3b40647844068fd00797d4a",
+      "line_count": 1177,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-provider-types/src/base.rs",
+      "anchors": [
+        {
+          "line": 324,
+          "anchor": "pub trait Provider"
+        },
+        {
+          "line": 504,
+          "anchor": "pub trait Provider"
+        },
+        {
+          "line": 517,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 795,
+          "anchor": "async fn stream"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose-provider-types/src/request_log.rs",
+      "sha256": "fc587fa37b39fe75c0c6c0d41b80bc1ab027884f8c1b052c1e58daf48ee9e16c",
+      "line_count": 134,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-provider-types/src/request_log.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-providers/src/anthropic.rs",
+      "sha256": "a2d4278d566149d7a8d3ef95bae96fc5a8a9f137b20c9304e8d83fcb7bc5b4ec",
+      "line_count": 883,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-providers/src/anthropic.rs",
+      "anchors": [
+        {
+          "line": 188,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 414,
+          "anchor": "async fn stream"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose-providers/src/api_client.rs",
+      "sha256": "efb2a914c90941ef052c5577932f12032d2739f4bdad555310a123b953a17028",
+      "line_count": 1103,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-providers/src/api_client.rs",
+      "anchors": [
+        {
+          "line": 892,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 909,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 944,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 980,
+          "anchor": "async fn stream"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose-providers/src/declarative/macros.rs",
+      "sha256": "a4727f68acca5a51bd5b7eabed18bf43e7aaa54e9d6d8b04e41c546e4747cd9e",
+      "line_count": 44,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-providers/src/declarative/macros.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-providers/src/lib.rs",
+      "sha256": "dbd6dd18e6d939adb1edd14f4f84c496dc63c21df71731e01fadc3299ea1fe7a",
+      "line_count": 40,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-providers/src/lib.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose-providers/src/openai.rs",
+      "sha256": "3027210238be961eb57b6b98f57863298561a5903ab750f9b45d81c84a5a4c78",
+      "line_count": 1966,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose-providers/src/openai.rs",
+      "anchors": [
+        {
+          "line": 263,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 284,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 769,
+          "anchor": "async fn stream"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/acp/fs.rs",
+      "sha256": "cdc2fcab3b0e7a0d7319cf56ec48416120dcfe0f84a8aba711a908906c0a3050",
+      "line_count": 475,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/fs.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/provider.rs",
+      "sha256": "b1e495a255be85903b9c524db0cd6f63e24f5c6f3b6c2e9274d46354d3fcc057",
+      "line_count": 4729,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/provider.rs",
+      "anchors": [
+        {
+          "line": 820,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 2711,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 2935,
+          "anchor": "async fn stream"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/acp/server.rs",
+      "sha256": "ec90c7be76f6aa71912c46327466376dccc566f692fa5c6080e9cb6dfb9ccc5d",
+      "line_count": 3786,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server.rs",
+      "anchors": [
+        {
+          "line": 1004,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 1845,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 2461,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 2548,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 2610,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 2791,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 3540,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 3674,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 3710,
+          "anchor": "update_provider"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/acp/server/agent_mentions.rs",
+      "sha256": "709b05d8e411cfa4b5e8efa1164109128080672e50a232d9af385a7586e63a69",
+      "line_count": 119,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/agent_mentions.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/agent_requests.rs",
+      "sha256": "0f8335d2eb73419d248517485999375694c1a52235229d5c208e94e28cc89ef8",
+      "line_count": 48,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/agent_requests.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/apps.rs",
+      "sha256": "ae46adf97bcfda919e21b43a96e779993821c677a3118e9d1b1d87e5bcd2657f",
+      "line_count": 296,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/apps.rs",
+      "anchors": [
+        {
+          "line": 262,
+          "anchor": "GOOSE_PATH_ROOT"
+        },
+        {
+          "line": 264,
+          "anchor": "GOOSE_PATH_ROOT"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/acp/server/config.rs",
+      "sha256": "39b4c873d319981b92afffc7f4d3aaa5d630c4b501dcce59ea6acac428167ef2",
+      "line_count": 402,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/config.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/custom_dispatch.rs",
+      "sha256": "f6474d305cd2b6167f80b26ba3cb0c333cd8ec64cc0e4ebc00085440160ac0a4",
+      "line_count": 913,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/custom_dispatch.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/diagnostics.rs",
+      "sha256": "f01a34f49ad398266021a5f89a4109e2069b0b0e677b7544d4da78e6306a33fc",
+      "line_count": 20,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/diagnostics.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/dictation.rs",
+      "sha256": "f2f3c07835c46fa43f8cda00eb7c358b70f3be45b1efd4e390c5e6d7516799aa",
+      "line_count": 399,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/dictation.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/dispatch.rs",
+      "sha256": "31b424882c7735f3c195a8b4834c8431ab927c255671eacff454e82e1d6bbfd2",
+      "line_count": 511,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/dispatch.rs",
+      "anchors": [
+        {
+          "line": 171,
+          "anchor": "update_provider"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/acp/server/elicitation.rs",
+      "sha256": "9429d0dc6052bccc74b31427d30786190abd1cc896f43a621b66a7f5a1861f87",
+      "line_count": 253,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/elicitation.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/extensions.rs",
+      "sha256": "ef9de60234024a2ae650fe25437c1d2143a67cf74f2d22e7fb34faba0f34e761",
+      "line_count": 884,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/extensions.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/fork_session.rs",
+      "sha256": "00c1fdfa7efaf90c363f1fbe542695e1bc2d00daeb61ed32b5312416a232e972",
+      "line_count": 151,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/fork_session.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/list_sessions.rs",
+      "sha256": "945bef1a8d6ad938bd16badc5f51b733cd2e68c730e981ceb329b70102787aee",
+      "line_count": 226,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/list_sessions.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/live_voice.rs",
+      "sha256": "932d083732ea602c5e29f8df2ed861eefa07c21e51d80509d41d892f061dfc74",
+      "line_count": 412,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/live_voice.rs",
+      "anchors": [
+        {
+          "line": 142,
+          "anchor": "Agent::new"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/acp/server/load_session.rs",
+      "sha256": "fd028d8204cf29c56e459e432d7ff5addb48baecebcc8be44e80e772e638ed07",
+      "line_count": 769,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/load_session.rs",
+      "anchors": [
+        {
+          "line": 532,
+          "anchor": "async fn stream"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/acp/server/local_inference.rs",
+      "sha256": "803acadda0a58281afab7c9677b430a5e984b5a38477fce811e058eb76d58814",
+      "line_count": 214,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/local_inference.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/manage_sessions.rs",
+      "sha256": "e2ecfe9f871b477b86f481889dd6d6c6d85e40029bf3bf96852dca5d4083cc73",
+      "line_count": 263,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/manage_sessions.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/message_meta.rs",
+      "sha256": "7010469d29ca99a032947e91060c77be96608080821ad0a46db886edab44b0cf",
+      "line_count": 313,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/message_meta.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/new_session.rs",
+      "sha256": "930af2090f1c8a3a3fd418d6afcb7dca511311cce7f79f3d9e3f4788929ed768",
+      "line_count": 397,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/new_session.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/onboarding.rs",
+      "sha256": "57f0eca038625f79d21aface3e60f5b3a661600e7e4719d98d9daf8182146847",
+      "line_count": 708,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/onboarding.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/prompts.rs",
+      "sha256": "2d8c4dce604944673669ae435b2f7592041998d4141d4651d5a0396ad996e750",
+      "line_count": 81,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/prompts.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/providers.rs",
+      "sha256": "482eb44ea9e54ce8398ed65efbe5f120bde3b1095dd37fbae08c3109a0e51ef2",
+      "line_count": 1281,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/providers.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/recipe/conversions.rs",
+      "sha256": "a35abbf5515765745f1483b71ab0de943401c13b8d731ba1bebaaacab35ca1f6",
+      "line_count": 636,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/recipe/conversions.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/recipe/mod.rs",
+      "sha256": "eeef4820ad1c27315b9ebbeb639aca63e805cb288a9f0dacb3a1e671c8c2df55",
+      "line_count": 582,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/recipe/mod.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/resources.rs",
+      "sha256": "f60c9adbaa8e896404874ac4016112158989838183cdc752d684bda4ce888040",
+      "line_count": 21,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/resources.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/schedule.rs",
+      "sha256": "b84faa60d3b63117263f56fa355f0b9fb18d9dba2d40d10124cb2c2c3532736a",
+      "line_count": 467,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/schedule.rs",
+      "anchors": [
+        {
+          "line": 383,
+          "anchor": "GOOSE_DISABLE_KEYRING"
+        },
+        {
+          "line": 384,
+          "anchor": "GOOSE_PATH_ROOT"
+        },
+        {
+          "line": 420,
+          "anchor": "GOOSE_DISABLE_KEYRING"
+        },
+        {
+          "line": 421,
+          "anchor": "GOOSE_PATH_ROOT"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/acp/server/slash_commands.rs",
+      "sha256": "b8d3eaff6f1459c9159f8050359047cf0765c1ab54f52e5b799bd586634046fd",
+      "line_count": 45,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/slash_commands.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/sources.rs",
+      "sha256": "cdd0dd3a72b48f75349f084d1220c6bb1d955ec3b35d147ef6cca3534f6965d1",
+      "line_count": 102,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/sources.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/tool_calls/chain.rs",
+      "sha256": "1641876eb722ca6eada970ce3f6b8bff6165f7e715a3928a2175f9af39399972",
+      "line_count": 199,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/tool_calls/chain.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/tool_calls/conversion.rs",
+      "sha256": "c48e7dd25350d63824d045b1c8fb35ee7ac651cc2c833d3a87fcb22a413db417",
+      "line_count": 911,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/tool_calls/conversion.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/tool_calls/enrichment.rs",
+      "sha256": "fc2b7cdc6186804f6560ec620e1525c6963109798b8d0ef3286f585c741bd686",
+      "line_count": 127,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/tool_calls/enrichment.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/tool_calls/mod.rs",
+      "sha256": "3a74b684193de340e7efd886798ffe53ba7efac34e2d4c5348ce6c63d1ca7a9a",
+      "line_count": 3,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/tool_calls/mod.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/tool_notifications.rs",
+      "sha256": "e065a288a406dead04b8dc166b6a30249ed314542ccb95a03be1007966b817f6",
+      "line_count": 247,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/tool_notifications.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server/tools.rs",
+      "sha256": "575caf20938bc3c9eb0120ea68135b1c8c9919f0c74c83a2addaa0a3f9464a08",
+      "line_count": 163,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server/tools.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/acp/server_factory.rs",
+      "sha256": "e6801216417b4f5ba85b9bf848e5b66d5c8c4d4b0d68d08f070366bba110cc62",
+      "line_count": 301,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/server_factory.rs",
+      "anchors": [
+        {
+          "line": 84,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 96,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 132,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 229,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 254,
+          "anchor": "Agent::new"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/acp/transport/auth.rs",
+      "sha256": "13f0eff02010219fb5cb692068f4aaa6e7b37af17bfde2cbc40056d678fe7614",
+      "line_count": 36,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/transport/auth.rs",
+      "anchors": [
+        {
+          "line": 15,
+          "anchor": "check_acp_token"
+        },
+        {
+          "line": 22,
+          "anchor": "X-Secret-Key"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/acp/transport/mod.rs",
+      "sha256": "7b786c7b7d0aa461b07efbdb518ff87079b4d525a89086e51fb978c288da7a45",
+      "line_count": 248,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/transport/mod.rs",
+      "anchors": [
+        {
+          "line": 101,
+          "anchor": "fn acp_http_options"
+        },
+        {
+          "line": 207,
+          "anchor": "check_acp_token"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/acp/transport/tls.rs",
+      "sha256": "407ee0f8169668849804c1ef711d12e1b423202bd39ce8f7f4337491ab7c9502",
+      "line_count": 179,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/acp/transport/tls.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/agents/agent.rs",
+      "sha256": "c0e6128bb6bf400ea066e908f2656159c2c1895a0061a1e44f030078922ec193",
+      "line_count": 6382,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/agent.rs",
+      "anchors": [
+        {
+          "line": 1771,
+          "anchor": "async fn reply"
+        },
+        {
+          "line": 1789,
+          "anchor": "async fn reply"
+        },
+        {
+          "line": 1993,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 2051,
+          "anchor": "async fn reply"
+        },
+        {
+          "line": 2079,
+          "anchor": "async fn reply"
+        },
+        {
+          "line": 2109,
+          "anchor": "async fn reply"
+        },
+        {
+          "line": 2455,
+          "anchor": "async fn reply"
+        },
+        {
+          "line": 3631,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 3732,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 3900,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 4095,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 4133,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 4187,
+          "anchor": "async fn reply"
+        },
+        {
+          "line": 4492,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 4627,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 4665,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 4684,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 4697,
+          "anchor": "GOOSE_PATH_ROOT"
+        },
+        {
+          "line": 4725,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 4782,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 4792,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 4805,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 4815,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 5055,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 5077,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 5103,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 5161,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 5196,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 5271,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 5297,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 5310,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 5333,
+          "anchor": "GOOSE_STATE_MACHINE"
+        },
+        {
+          "line": 5419,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 5786,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 5824,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 5842,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 5869,
+          "anchor": "Agent::new"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/agents/extension.rs",
+      "sha256": "7ecd10ee0633059b5eb72f12fbed1bef71ec2f0600abf2cdd067a260632cb157",
+      "line_count": 1209,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/extension.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/agents/extension_manager/builtin.rs",
+      "sha256": "9010c0f2b37040eb221e5871fd2dc7598904264a3f69ace41c106f010dab5ede",
+      "line_count": 41,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/extension_manager/builtin.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/agents/extension_manager/mod.rs",
+      "sha256": "cca72e241d8786ba44256a8d2e4671f3f353e6b57e04427b8892a3c346bf1943",
+      "line_count": 2782,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/extension_manager/mod.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/agents/extension_manager/stdio.rs",
+      "sha256": "55834117feda0ee7143a914ff0177302912ba21f96295d3cbd6d905b1aeb2309",
+      "line_count": 101,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/extension_manager/stdio.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/agents/extension_manager/streamable_http.rs",
+      "sha256": "c32b341b351b4a51b3afea1ffc9d12013005b5aaaa236c892eec3824970f3473",
+      "line_count": 1152,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/extension_manager/streamable_http.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/agents/mcp_client.rs",
+      "sha256": "246081c6d8bf4017035cf5aaf9c0e8ac4be7075bc27ede148199933d8de1db12",
+      "line_count": 1687,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/mcp_client.rs",
+      "anchors": [
+        {
+          "line": 395,
+          "anchor": "async fn create"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/agents/platform_extensions/developer/edit.rs",
+      "sha256": "05157d5216c83f90ea82c7516d4463401601303ac52c83606ccf0f9ebcc3e27b",
+      "line_count": 512,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/platform_extensions/developer/edit.rs",
+      "anchors": [
+        {
+          "line": 47,
+          "anchor": "fn file_read"
+        },
+        {
+          "line": 66,
+          "anchor": "fn file_write"
+        },
+        {
+          "line": 70,
+          "anchor": "fn file_write"
+        },
+        {
+          "line": 107,
+          "anchor": "fn file_edit"
+        },
+        {
+          "line": 111,
+          "anchor": "fn file_edit"
+        },
+        {
+          "line": 214,
+          "anchor": "fn resolve_path"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/agents/platform_extensions/developer/mod.rs",
+      "sha256": "73b27264675f2746c8ae16b93921cc1c33630c4678b70c90e330bd8737a4e079",
+      "line_count": 405,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/platform_extensions/developer/mod.rs",
+      "anchors": [
+        {
+          "line": 139,
+          "anchor": "GOOSE_SHELL"
+        },
+        {
+          "line": 145,
+          "anchor": "GOOSE_SHELL"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/agents/platform_extensions/developer/shell.rs",
+      "sha256": "4aaacece2a176c908a54e64e9a64f185f6e8646c78c49f09f8269b89f05b800b",
+      "line_count": 1408,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/platform_extensions/developer/shell.rs",
+      "anchors": [
+        {
+          "line": 95,
+          "anchor": "GOOSE_SHELL"
+        },
+        {
+          "line": 97,
+          "anchor": "GOOSE_SHELL"
+        },
+        {
+          "line": 102,
+          "anchor": "fn windows_shell"
+        },
+        {
+          "line": 103,
+          "anchor": "GOOSE_SHELL"
+        },
+        {
+          "line": 145,
+          "anchor": "GOOSE_SHELL"
+        },
+        {
+          "line": 148,
+          "anchor": "GOOSE_SHELL"
+        },
+        {
+          "line": 397,
+          "anchor": "GOOSE_SHELL"
+        },
+        {
+          "line": 673,
+          "anchor": "GOOSE_SHELL"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/agents/platform_extensions/developer/tree.rs",
+      "sha256": "cbc726095593ed36e29059d76d596438cfccaa29c4ccf25930a997c2378100ee",
+      "line_count": 299,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/platform_extensions/developer/tree.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/agents/platform_extensions/orchestrator.rs",
+      "sha256": "54fcea4052b886d05ee5def2f24f9e485dcbcc5dc2e758b54bc8395d4251ee36",
+      "line_count": 1081,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/platform_extensions/orchestrator.rs",
+      "anchors": [
+        {
+          "line": 441,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 530,
+          "anchor": "update_provider"
+        },
+        {
+          "line": 772,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 788,
+          "anchor": "async fn create"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/agents/platform_extensions/scheduler.rs",
+      "sha256": "3bf8091dddae9fc2aea47efb174fa84fa8d8ddd26556c59e70eb4b3322960fbb",
+      "line_count": 75,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/platform_extensions/scheduler.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/agents/reply_parts.rs",
+      "sha256": "0fb4ef498ad379792825ccb5342f10e03ba1be6aa5b0b6f611adab2a67b922a4",
+      "line_count": 2123,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/reply_parts.rs",
+      "anchors": [
+        {
+          "line": 342,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 850,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 879,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 1113,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 1249,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 1342,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 1370,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 1392,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 1416,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 1476,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 1506,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 1555,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 1592,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 1620,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 1653,
+          "anchor": "Agent::new"
+        },
+        {
+          "line": 1929,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 1950,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 2085,
+          "anchor": "async fn stream"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/agents/state_machine/mod.rs",
+      "sha256": "ba5103efb536ec23412e927952887a29d9b69b4f5a800210e12ae81d9e23d624",
+      "line_count": 76,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/state_machine/mod.rs",
+      "anchors": [
+        {
+          "line": 73,
+          "anchor": "GOOSE_STATE_MACHINE"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/agents/state_machine/ops_llm.rs",
+      "sha256": "ac0ee52abdf20ee32c6f5e770471820fa37806e59265d239fb37a2a534bab506",
+      "line_count": 238,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/state_machine/ops_llm.rs",
+      "anchors": [
+        {
+          "line": 113,
+          "anchor": "async fn stream"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/agents/subagent_execution_tool/mod.rs",
+      "sha256": "49fb6d54b5cd69e5a40415262d7de7ad59891a2af50dcd0194ade9b26a0dfdd5",
+      "line_count": 5,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/subagent_execution_tool/mod.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/agents/subagent_handler.rs",
+      "sha256": "86e6001c7f292ddeef77cbb4351dfb46cad4c5ba88dde7637d4ac5dd0a295978",
+      "line_count": 364,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/subagent_handler.rs",
+      "anchors": [
+        {
+          "line": 142,
+          "anchor": "update_provider"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/agents/tool_execution.rs",
+      "sha256": "eba1308011c5a9af789842d21babe714a3e1f1a6e2bd3a9c8015426a7956251a",
+      "line_count": 245,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/agents/tool_execution.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/config/base.rs",
+      "sha256": "0ef2b28f7902daa6ea6277e0690e3b87d847ef968f41c4f28da201c8d4f5d5ce",
+      "line_count": 2951,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/config/base.rs",
+      "anchors": [
+        {
+          "line": 89,
+          "anchor": "GOOSE_DISABLE_KEYRING"
+        },
+        {
+          "line": 129,
+          "anchor": "enum SecretStorage"
+        },
+        {
+          "line": 216,
+          "anchor": "GOOSE_DISABLE_KEYRING"
+        },
+        {
+          "line": 218,
+          "anchor": "GOOSE_DISABLE_KEYRING"
+        },
+        {
+          "line": 370,
+          "anchor": "GOOSE_DISABLE_KEYRING"
+        },
+        {
+          "line": 379,
+          "anchor": "GOOSE_DISABLE_KEYRING"
+        },
+        {
+          "line": 433,
+          "anchor": "GOOSE_DISABLE_KEYRING"
+        },
+        {
+          "line": 1216,
+          "anchor": "GOOSE_DISABLE_KEYRING"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/config/declarative_providers.rs",
+      "sha256": "ed58d539e5501e91436820fabaa9cb6f008260d46bd6726b3b6c988ec551b1ac",
+      "line_count": 1068,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/config/declarative_providers.rs",
+      "anchors": [
+        {
+          "line": 800,
+          "anchor": "GOOSE_PATH_ROOT"
+        },
+        {
+          "line": 925,
+          "anchor": "GOOSE_PATH_ROOT"
+        },
+        {
+          "line": 938,
+          "anchor": "GOOSE_PATH_ROOT"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/config/extensions.rs",
+      "sha256": "5524c4fe66582f7021a07f5509cf99affa18a8b6138fbcff3042a86fc7f79dea",
+      "line_count": 815,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/config/extensions.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/config/paths.rs",
+      "sha256": "5df20511b6b564b58fc38a7d5ce842aedb5922d68905d6d0db64f7acf4ebe4b8",
+      "line_count": 120,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/config/paths.rs",
+      "anchors": [
+        {
+          "line": 41,
+          "anchor": "GOOSE_PATH_ROOT"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/config/permission.rs",
+      "sha256": "5f57b0fbb777a049968601433a73fb0da02f3b32ef97d73d73c3ca9b3c6200a3",
+      "line_count": 590,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/config/permission.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/config/tls.rs",
+      "sha256": "3c5b4ced2643d4cff9a60bf4dc3503ac594026b9a9ba817cb93024df82fcef78",
+      "line_count": 38,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/config/tls.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/hints/import_files.rs",
+      "sha256": "fc66260e94f6288f85e5905449c89a87e2f4ab98aa01799b29c2d43a331fd511",
+      "line_count": 1416,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/hints/import_files.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/hints/load_hints.rs",
+      "sha256": "be138dc7166f64d8df7b7783f91272ce7aa85d5f60e5653119911606e584f54c",
+      "line_count": 1039,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/hints/load_hints.rs",
+      "anchors": [
+        {
+          "line": 170,
+          "anchor": "fn find_git_root"
+        },
+        {
+          "line": 341,
+          "anchor": "GOOSE_PATH_ROOT"
+        },
+        {
+          "line": 362,
+          "anchor": "GOOSE_PATH_ROOT"
+        },
+        {
+          "line": 372,
+          "anchor": "GOOSE_PATH_ROOT"
+        },
+        {
+          "line": 397,
+          "anchor": "GOOSE_PATH_ROOT"
+        },
+        {
+          "line": 406,
+          "anchor": "GOOSE_PATH_ROOT"
+        },
+        {
+          "line": 424,
+          "anchor": "GOOSE_PATH_ROOT"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/logging.rs",
+      "sha256": "5b7ff042c23834e60ae5022b1eae9678c029302ccc37e526a8a4cc502c9d5095",
+      "line_count": 272,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/logging.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/otel/mod.rs",
+      "sha256": "3648ecf5b14b51f60b98e7acd13b3de9ced3e466b7ee07d1f838a1bc63193a84",
+      "line_count": 1,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/otel/mod.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/otel/otlp.rs",
+      "sha256": "f2b45b4d6c26590bd79d1681825cbf3360428d5d2d9c3f9bafc4399d685070bf",
+      "line_count": 1140,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/otel/otlp.rs",
+      "anchors": [
+        {
+          "line": 224,
+          "anchor": "OTEL_SDK_DISABLED"
+        },
+        {
+          "line": 228,
+          "anchor": "OTEL_SDK_DISABLED"
+        },
+        {
+          "line": 725,
+          "anchor": "OTEL_SDK_DISABLED"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/posthog.rs",
+      "sha256": "5cf4acf1f98214836357c59526eaadf927424fa1f7f902f8a41a90a2da141cf1",
+      "line_count": 604,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/posthog.rs",
+      "anchors": [
+        {
+          "line": 20,
+          "anchor": "TELEMETRY_ENABLED_KEY"
+        },
+        {
+          "line": 23,
+          "anchor": "GOOSE_TELEMETRY_OFF"
+        },
+        {
+          "line": 39,
+          "anchor": "TELEMETRY_ENABLED_KEY"
+        },
+        {
+          "line": 45,
+          "anchor": "GOOSE_TELEMETRY_OFF"
+        },
+        {
+          "line": 556,
+          "anchor": "pub async fn emit_event"
+        },
+        {
+          "line": 562,
+          "anchor": "is_onboarding_event"
+        },
+        {
+          "line": 564,
+          "anchor": "is_onboarding_event"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/providers/claude_acp.rs",
+      "sha256": "bcf522b6a3a9a6cfd02bae0650905e378dea7469c19df25a49caf15a3f7d9c52",
+      "line_count": 105,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/providers/claude_acp.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/providers/codex_acp.rs",
+      "sha256": "2d5cf9d94ead5a9bccd444866c9a7845d36c08660134b95dd9da3bbd98df583a",
+      "line_count": 294,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/providers/codex_acp.rs",
+      "anchors": [
+        {
+          "line": 259,
+          "anchor": "GOOSE_PATH_ROOT"
+        },
+        {
+          "line": 265,
+          "anchor": "GOOSE_DISABLE_KEYRING"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/providers/mod.rs",
+      "sha256": "53b12c91947b0715e69d21ae645d92dc757c5c236d03088f9787e6a93509e911",
+      "line_count": 107,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/providers/mod.rs",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/providers/provider_registry.rs",
+      "sha256": "95f4362430777f36d86babb1ece2ab0c1b5f36084a38c5481781bee3114ea596",
+      "line_count": 452,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/providers/provider_registry.rs",
+      "anchors": [
+        {
+          "line": 70,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 77,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 81,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 340,
+          "anchor": "async fn create"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/session/export_html/vendor/highlight.min.js",
+      "sha256": "837a6fa5b0c736b52bbde2b2b6190f305da3fc9ed41681db5321507057b5c846",
+      "line_count": 1213,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/session/export_html/vendor/highlight.min.js",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/session/export_html/vendor/marked.min.js",
+      "sha256": "d5487edc7258b404bfa74c393d74a6393155f02517bd5e7e77cd64f8187f39a0",
+      "line_count": 78,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/session/export_html/vendor/marked.min.js",
+      "anchors": []
+    },
+    {
+      "path": "crates/goose/src/session/session_manager.rs",
+      "sha256": "089428a6cc15875360c72a44a6b1220f729a4bb3dd6275321285870c223926c6",
+      "line_count": 5083,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/session/session_manager.rs",
+      "anchors": [
+        {
+          "line": 30,
+          "anchor": "DB_NAME"
+        },
+        {
+          "line": 421,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 962,
+          "anchor": "DB_NAME"
+        },
+        {
+          "line": 995,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 1620,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 2873,
+          "anchor": "DB_NAME"
+        },
+        {
+          "line": 2998,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 3028,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 3049,
+          "anchor": "async fn stream"
+        },
+        {
+          "line": 3077,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 3101,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 3683,
+          "anchor": "async fn create"
+        },
+        {
+          "line": 4675,
+          "anchor": "DB_NAME"
+        },
+        {
+          "line": 4744,
+          "anchor": "DB_NAME"
+        }
+      ]
+    },
+    {
+      "path": "crates/goose/src/subprocess.rs",
+      "sha256": "6b02b324ea696217176f0f1b5a91df1cf89674156cf484bd0b1f03626d7b7738",
+      "line_count": 144,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/crates/goose/src/subprocess.rs",
+      "anchors": [
+        {
+          "line": 36,
+          "anchor": "git_command"
+        },
+        {
+          "line": 40,
+          "anchor": "safe.bareRepository"
+        },
+        {
+          "line": 42,
+          "anchor": "core.fsmonitor"
+        }
+      ]
+    },
+    {
+      "path": "deny.toml",
+      "sha256": "fade2bd4f0bd1d66befcb6bffc00fcffcb67039afd507c0cabc698dda81fe850",
+      "line_count": 13,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/deny.toml",
+      "anchors": []
+    },
+    {
+      "path": "rust-toolchain.toml",
+      "sha256": "7851281486d1f00b4cbb8cc7875a4c4f108ce900c371e445e6a7b1047b32383b",
+      "line_count": 3,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/rust-toolchain.toml",
+      "anchors": [
+        {
+          "line": 2,
+          "anchor": "channel ="
+        }
+      ]
+    },
+    {
+      "path": "ui/desktop/package.json",
+      "sha256": "42b9958faf0e207cac4fd16f4e9c8baf339808904d708f63f0d68d4af7fbc095",
+      "line_count": 165,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/ui/desktop/package.json",
+      "anchors": []
+    },
+    {
+      "path": "ui/desktop/src/app-update.yml",
+      "sha256": "e728ccb9fd19c9b9afbee2f06ed970126f15b7f92a4151b6390fef416020b61e",
+      "line_count": 4,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/ui/desktop/src/app-update.yml",
+      "anchors": []
+    },
+    {
+      "path": "ui/desktop/src/updates.ts",
+      "sha256": "52397ddc41494e72d8a1a2a7fc124de5f7f9fc84ce3a0576732da5ab0c99c249",
+      "line_count": 6,
+      "url": "https://github.com/aaif-goose/goose/blob/591edd47cf2cfea4957d720c607cf2a4def8673d/ui/desktop/src/updates.ts",
+      "anchors": []
+    }
+  ],
+  "requested_paths_not_present": [],
+  "method": "direct source reads; anchors are symbols, not credential-bearing excerpts"
+}

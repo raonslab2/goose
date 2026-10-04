@@ -1,0 +1,64 @@
+{
+  "kind": "synthetic-git-only",
+  "platform": "Linux",
+  "goose_runtime_executed": false,
+  "customer_source_used": false,
+  "results": [
+    {
+      "scenario": "clean",
+      "passed": true
+    },
+    {
+      "scenario": "local-only-no-remote",
+      "passed": true
+    },
+    {
+      "scenario": "branch",
+      "passed": true
+    },
+    {
+      "scenario": "dirty-and-untracked",
+      "passed": true
+    },
+    {
+      "scenario": "ignore-not-in-status",
+      "passed": true
+    },
+    {
+      "scenario": "diff-excludes-untracked",
+      "passed": true
+    },
+    {
+      "scenario": "apply",
+      "passed": true
+    },
+    {
+      "scenario": "reapply-conflict-refused",
+      "passed": true
+    },
+    {
+      "scenario": "reverse-rollback",
+      "passed": true
+    },
+    {
+      "scenario": "worktree-git-pointer",
+      "passed": true
+    },
+    {
+      "scenario": "worktree-branch-conflict",
+      "passed": true
+    },
+    {
+      "scenario": "staged-and-unstaged-distinct",
+      "passed": true
+    },
+    {
+      "scenario": "binary-patch",
+      "passed": true
+    },
+    {
+      "scenario": "symlink-mode-120000",
+      "passed": true
+    }
+  ]
+}

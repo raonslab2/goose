@@ -1,0 +1,11 @@
+{
+  "observed_at_utc": "2026-10-04T23:48:34.184468+00:00",
+  "git_version": "git version 2.43.0",
+  "python_version": "Python 3.12.3",
+  "rustc_available": false,
+  "cargo_available": false,
+  "goose_build": "NOT_RUN_TOOLCHAIN_ABSENT",
+  "goose_runtime": "NOT_RUN",
+  "production_api_db_services": "NOT_ACCESSED",
+  "customer_source_credentials": "NOT_USED"
+}

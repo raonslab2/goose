@@ -1,0 +1,630 @@
+{
+  "source_commit": "fd18e5151b0b1bcee20e0af05eb73cfdcb12e5e0",
+  "access": "assigned source worktree read-only; no production API/DB",
+  "files": [
+    {
+      "path": "agentopt_v2/app.py",
+      "sha256": "aa8c994fc48288b809b0c4ecfb5f99af836a620f68781896d4c32ef1f6f7ccc1",
+      "anchors": [
+        {
+          "line": 53,
+          "symbol": "WorkOrderBinding"
+        },
+        {
+          "line": 60,
+          "symbol": "CreateRequest"
+        },
+        {
+          "line": 85,
+          "symbol": "TitleBody"
+        },
+        {
+          "line": 93,
+          "symbol": "MessageBody"
+        },
+        {
+          "line": 140,
+          "symbol": "_reference_view"
+        },
+        {
+          "line": 159,
+          "symbol": "_request_reference_view"
+        },
+        {
+          "line": 174,
+          "symbol": "_reference_file_response"
+        },
+        {
+          "line": 185,
+          "symbol": "_sanitized_repository_url"
+        },
+        {
+          "line": 201,
+          "symbol": "_project_source"
+        },
+        {
+          "line": 227,
+          "symbol": "create_app"
+        },
+        {
+          "line": 330,
+          "symbol": "@app.get(\"/health\")"
+        },
+        {
+          "line": 339,
+          "symbol": "@app.get(\"/api/v1/session\")"
+        },
+        {
+          "line": 343,
+          "symbol": "@app.get(\"/api/v1/operations/requests\")"
+        },
+        {
+          "line": 375,
+          "symbol": "@app.get(\"/api/v1/projects\")"
+        },
+        {
+          "line": 406,
+          "symbol": "@app.get(\"/api/v1/providers\")"
+        },
+        {
+          "line": 429,
+          "symbol": "@app.post(\"/api/v1/attachments\", status_code=201)"
+        },
+        {
+          "line": 535,
+          "symbol": "@app.get(\"/api/v1/projects/{project_id}/references\")"
+        },
+        {
+          "line": 569,
+          "symbol": "@app.post(\"/api/v1/projects/{project_id}/references\", status_code=201)"
+        },
+        {
+          "line": 644,
+          "symbol": "@app.get(\"/api/v1/projects/{project_id}/references/{reference_id}\")"
+        },
+        {
+          "line": 650,
+          "symbol": "@app.get(\"/api/v1/projects/{project_id}/references/{reference_id}/content\")"
+        },
+        {
+          "line": 663,
+          "symbol": "@app.post(\"/api/v1/projects/{project_id}/references/{reference_id}/archive\")"
+        },
+        {
+          "line": 670,
+          "symbol": "@app.get(\"/api/v1/requests/{request_id}/references/{reference_id}/content\")"
+        },
+        {
+          "line": 700,
+          "symbol": "@app.get(\"/api/v1/settings\")"
+        },
+        {
+          "line": 704,
+          "symbol": "@app.put(\"/api/v1/settings\")"
+        },
+        {
+          "line": 718,
+          "symbol": "@app.get(\"/api/v1/work-orders\")"
+        },
+        {
+          "line": 730,
+          "symbol": "@app.post(\"/api/v1/work-orders/refresh\", status_code=202)"
+        },
+        {
+          "line": 737,
+          "symbol": "@app.get(\"/api/v1/work-orders/{work_id}\")"
+        },
+        {
+          "line": 744,
+          "symbol": "@app.post(\"/api/v1/work-orders/{work_id}/{action}\")"
+        },
+        {
+          "line": 756,
+          "symbol": "@app.get(\"/api/v1/projects/{project_id}/scores\")"
+        },
+        {
+          "line": 767,
+          "symbol": "@app.post(\"/api/v1/requests\", status_code=status.HTTP_202_ACCEPTED)"
+        },
+        {
+          "line": 810,
+          "symbol": "@app.get(\"/api/v1/requests\")"
+        },
+        {
+          "line": 857,
+          "symbol": "@app.get(\"/api/v1/requests/{request_id}\")"
+        },
+        {
+          "line": 890,
+          "symbol": "@app.patch(\"/api/v1/requests/{request_id}\")"
+        },
+        {
+          "line": 901,
+          "symbol": "@app.delete(\"/api/v1/requests/{request_id}\", status_code=status.HTTP_204_NO_CONTENT)"
+        },
+        {
+          "line": 913,
+          "symbol": "@app.get(\"/api/v1/requests/{request_id}/patch\")"
+        },
+        {
+          "line": 937,
+          "symbol": "@app.get(\"/api/v1/requests/{request_id}/artifacts/{artifact_id}\")"
+        },
+        {
+          "line": 961,
+          "symbol": "@app.post(\"/api/v1/requests/{request_id}/messages\", status_code=202)"
+        },
+        {
+          "line": 982,
+          "symbol": "@app.post(\"/api/v1/requests/{request_id}/cancel\", status_code=202)"
+        },
+        {
+          "line": 988,
+          "symbol": "@app.post(\"/api/v1/requests/{request_id}/resume\", status_code=202)"
+        },
+        {
+          "line": 1009,
+          "symbol": "@app.get(\"/api/v1/requests/{request_id}/events\")"
+        }
+      ]
+    },
+    {
+      "path": "agentopt_v2/auth.py",
+      "sha256": "89b2d4d946e96619c523e9c011c8790b65150bc43c0cf465b5b598a74e345662",
+      "anchors": [
+        {
+          "line": 13,
+          "symbol": "Identity"
+        },
+        {
+          "line": 17,
+          "symbol": "_loopback"
+        },
+        {
+          "line": 22,
+          "symbol": "identity_from_request"
+        }
+      ]
+    },
+    {
+      "path": "agentopt_v2/store.py",
+      "sha256": "09b55097b0c9a13e60c835fe385ff52a962cc0fc66dc906e8b613e6407e2ba50",
+      "anchors": [
+        {
+          "line": 22,
+          "symbol": "utcnow"
+        },
+        {
+          "line": 26,
+          "symbol": "normalized_payload_hash"
+        },
+        {
+          "line": 48,
+          "symbol": "normalized_message_hash"
+        },
+        {
+          "line": 68,
+          "symbol": "ConflictError"
+        },
+        {
+          "line": 72,
+          "symbol": "InvalidCursorError"
+        },
+        {
+          "line": 76,
+          "symbol": "QuotaExceededError"
+        },
+        {
+          "line": 83,
+          "symbol": "Store"
+        }
+      ]
+    },
+    {
+      "path": "agentopt_v2/acceptance.py",
+      "sha256": "cd3ad99514d85cb13e68addd49a39f136991f928bb4f0595fb731e30e3a4475d",
+      "anchors": [
+        {
+          "line": 6,
+          "symbol": "AcceptanceError"
+        },
+        {
+          "line": 12,
+          "symbol": "validate_acceptance"
+        }
+      ]
+    },
+    {
+      "path": "agentopt_v2/scores.py",
+      "sha256": "fc56e9a936466fb9a34ff435d5d6717a586a7eaf9f3bfcf15fa91270a1f49e40",
+      "anchors": [
+        {
+          "line": 21,
+          "symbol": "ScoreBinding"
+        },
+        {
+          "line": 32,
+          "symbol": "ScoreError"
+        },
+        {
+          "line": 36,
+          "symbol": "digest"
+        },
+        {
+          "line": 41,
+          "symbol": "validate_score"
+        },
+        {
+          "line": 51,
+          "symbol": "verified_catalog"
+        },
+        {
+          "line": 95,
+          "symbol": "resolve_score"
+        },
+        {
+          "line": 104,
+          "symbol": "native_score_context"
+        }
+      ]
+    },
+    {
+      "path": "agentopt_v2/evidence.py",
+      "sha256": "9802c92a538025cf8df2407a76bab218ae697dfa8d8e93087eb07fc8b4c01ed9",
+      "anchors": [
+        {
+          "line": 114,
+          "symbol": "EvidenceError"
+        },
+        {
+          "line": 118,
+          "symbol": "_EvidenceFlight"
+        },
+        {
+          "line": 125,
+          "symbol": "artifact_id"
+        },
+        {
+          "line": 129,
+          "symbol": "decode_artifact_id"
+        },
+        {
+          "line": 137,
+          "symbol": "_git_environment"
+        },
+        {
+          "line": 158,
+          "symbol": "_terminate_process_group"
+        },
+        {
+          "line": 170,
+          "symbol": "_run_bounded"
+        },
+        {
+          "line": 234,
+          "symbol": "_safe_git_config"
+        },
+        {
+          "line": 251,
+          "symbol": "_filter_overrides"
+        },
+        {
+          "line": 286,
+          "symbol": "_run_git"
+        },
+        {
+          "line": 313,
+          "symbol": "_managed_workspace"
+        },
+        {
+          "line": 332,
+          "symbol": "_safe_relative"
+        },
+        {
+          "line": 343,
+          "symbol": "_safe_file"
+        },
+        {
+          "line": 367,
+          "symbol": "_read_safe_file"
+        },
+        {
+          "line": 406,
+          "symbol": "_changed_paths"
+        },
+        {
+          "line": 448,
+          "symbol": "_command_text"
+        },
+        {
+          "line": 456,
+          "symbol": "_content_text"
+        },
+        {
+          "line": 470,
+          "symbol": "_redact_git_urls"
+        },
+        {
+          "line": 474,
+          "symbol": "_repository_url"
+        },
+        {
+          "line": 487,
+          "symbol": "command_observations"
+        },
+        {
+          "line": 555,
+          "symbol": "git_delivery_observations"
+        },
+        {
+          "line": 627,
+          "symbol": "_rfc3339_utc"
+        },
+        {
+          "line": 654,
+          "symbol": "_positive_int"
+        },
+        {
+          "line": 658,
+          "symbol": "_canonical_release"
+        },
+        {
+          "line": 683,
+          "symbol": "_web_smoke_matches"
+        },
+        {
+          "line": 701,
+          "symbol": "_maintenance_readiness_matches"
+        },
+        {
+          "line": 723,
+          "symbol": "_deployment_receipt"
+        },
+        {
+          "line": 805,
+          "symbol": "_current_runtime"
+        },
+        {
+          "line": 820,
+          "symbol": "runtime_delivery"
+        },
+        {
+          "line": 881,
+          "symbol": "EvidenceService"
+        }
+      ]
+    },
+    {
+      "path": "agentopt_v2/workspaces.py",
+      "sha256": "a6cc6cdc787cde09c18164bcb36a5c010a59b353f08fbf0bc33a81f942b9720f",
+      "anchors": [
+        {
+          "line": 19,
+          "symbol": "WorkspaceBusyError"
+        },
+        {
+          "line": 23,
+          "symbol": "WorkspacePreparationError"
+        },
+        {
+          "line": 31,
+          "symbol": "WorkspaceBootstrapError"
+        },
+        {
+          "line": 40,
+          "symbol": "writer_lock_path"
+        },
+        {
+          "line": 46,
+          "symbol": "prepare_lock_path"
+        },
+        {
+          "line": 53,
+          "symbol": "WorkspaceBootstrapStatus"
+        },
+        {
+          "line": 61,
+          "symbol": "WorkspaceBootstrapResult"
+        },
+        {
+          "line": 68,
+          "symbol": "WorkspaceLease"
+        },
+        {
+          "line": 80,
+          "symbol": "WorkspaceManager"
+        }
+      ]
+    },
+    {
+      "path": "agentopt_v2/adapters.py",
+      "sha256": "42680a1d2b83d63f0f29aeb151e4fcdeb03cca18c81df3c96d2961b1dc8a119e",
+      "anchors": [
+        {
+          "line": 45,
+          "symbol": "ExecutionContext"
+        },
+        {
+          "line": 65,
+          "symbol": "_native_id"
+        },
+        {
+          "line": 69,
+          "symbol": "_native_response_binding"
+        },
+        {
+          "line": 85,
+          "symbol": "_codex_response_binding"
+        },
+        {
+          "line": 111,
+          "symbol": "_codex_reconnect_binding_is_proven"
+        },
+        {
+          "line": 120,
+          "symbol": "_response_binding_matches"
+        },
+        {
+          "line": 130,
+          "symbol": "_canonical_codex_sandbox"
+        },
+        {
+          "line": 141,
+          "symbol": "_codex_thread_policy_error"
+        },
+        {
+          "line": 176,
+          "symbol": "_attachment_note"
+        },
+        {
+          "line": 190,
+          "symbol": "_reference_delivery"
+        },
+        {
+          "line": 200,
+          "symbol": "_reference_header"
+        },
+        {
+          "line": 207,
+          "symbol": "_codex_reference_rows"
+        },
+        {
+          "line": 223,
+          "symbol": "_codex_input"
+        },
+        {
+          "line": 235,
+          "symbol": "_codex_strict_output_schema"
+        },
+        {
+          "line": 322,
+          "symbol": "_claude_reference_blocks"
+        },
+        {
+          "line": 352,
+          "symbol": "_claude_content"
+        },
+        {
+          "line": 367,
+          "symbol": "AdapterResult"
+        },
+        {
+          "line": 375,
+          "symbol": "ProviderAdapter"
+        },
+        {
+          "line": 381,
+          "symbol": "_spawn"
+        },
+        {
+          "line": 407,
+          "symbol": "_terminate"
+        },
+        {
+          "line": 426,
+          "symbol": "_drain_stderr"
+        },
+        {
+          "line": 445,
+          "symbol": "_finish_stderr"
+        },
+        {
+          "line": 478,
+          "symbol": "JsonLineProcess"
+        },
+        {
+          "line": 514,
+          "symbol": "CodexAppServerAdapter"
+        },
+        {
+          "line": 1035,
+          "symbol": "ClaudeStreamJsonAdapter"
+        },
+        {
+          "line": 1594,
+          "symbol": "native_adapter"
+        }
+      ]
+    },
+    {
+      "path": "agentopt_v2/dispatcher.py",
+      "sha256": "b15e0c01a47d1901eed117bc62cb8379fda71c14218d3d182fc87d1069bfe38c",
+      "anchors": [
+        {
+          "line": 34,
+          "symbol": "ExecutionSlot"
+        },
+        {
+          "line": 51,
+          "symbol": "Dispatcher"
+        }
+      ]
+    },
+    {
+      "path": "agentopt_v2/agent_tools_release.py",
+      "sha256": "07caa9c5380fe124e533d3e9adaa8164e533b0f7ba0e49c5868ef2f0fa88caa1",
+      "anchors": [
+        {
+          "line": 16,
+          "symbol": "PinError"
+        },
+        {
+          "line": 25,
+          "symbol": "Release"
+        },
+        {
+          "line": 35,
+          "symbol": "_canonical_absolute"
+        },
+        {
+          "line": 49,
+          "symbol": "_lstat_dir"
+        },
+        {
+          "line": 59,
+          "symbol": "_read_regular"
+        },
+        {
+          "line": 87,
+          "symbol": "_canonical_digest"
+        },
+        {
+          "line": 98,
+          "symbol": "_unique_object"
+        },
+        {
+          "line": 107,
+          "symbol": "_reject_constant"
+        },
+        {
+          "line": 111,
+          "symbol": "_finite_float"
+        },
+        {
+          "line": 118,
+          "symbol": "parse_manifest"
+        },
+        {
+          "line": 142,
+          "symbol": "_manifest_inventory"
+        },
+        {
+          "line": 169,
+          "symbol": "_hash_regular_at"
+        },
+        {
+          "line": 197,
+          "symbol": "_walk_content"
+        },
+        {
+          "line": 232,
+          "symbol": "verify_content_inventory"
+        },
+        {
+          "line": 259,
+          "symbol": "validate_release"
+        }
+      ]
+    }
+  ]
+}

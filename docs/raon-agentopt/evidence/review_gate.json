@@ -1,0 +1,10 @@
+{
+  "required_documents": 11,
+  "document_local_links": "PASS",
+  "public_source_hashes_verified": 124,
+  "license_unchanged": "PASS",
+  "credential_and_private_url_pattern_scan": "PASS",
+  "synthetic_git_assertions": 14,
+  "goose_build": "NOT_RUN_TOOLCHAIN_ABSENT",
+  "production_changes_by_task": false
+}
